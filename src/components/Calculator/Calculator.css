@@ -1,0 +1,32 @@
+.container {
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: aquamarine;
+    width: 50%;
+}
+.wrapper {
+    flex: 1;
+    flex-direction: row;
+}
+.wrapper:first-child > input {
+    width: 49%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.wrapper > .btn {
+    width: 23%;
+    margin: 1%;
+}
+
+.btn {
+    margin: 0;
+    padding: 1%;
+    background: lightgray;
+    color: #000;
+    font-weight: 700;
+}
+
+.btn:hover {
+    background-color: green;
+}
