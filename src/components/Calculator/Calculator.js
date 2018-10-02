@@ -11,7 +11,7 @@ export default class Calculator extends Component {
             operation: ''
         }
     }
-    //Theses 3 methods are for handling cahanges in the input field. 
+    //Theses 3 methods are for handling changes in the input field. 
     //Make sure to convert it to  a number
     changeNum1(num1) {
         console.log('num1 hit-------------', this.state.num1);
